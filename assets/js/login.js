@@ -68,7 +68,6 @@ $('#form_login').on('submit',function(e){
             if(res.status!=0){
                 return layer.msg(res.message)
             }else{
-                layer.msg('登录成功!')
                 //将登录成功后的token字符串保存到localStorage中
                 localStorage.setItem('token',res.token)   
                 //跳转页面
