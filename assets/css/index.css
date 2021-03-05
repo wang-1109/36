@@ -11,6 +11,9 @@ iframe{
     height: 100%;
     overflow: hidden;
 }
+.layui-body{
+    overflow: hidden;
+}
 a {
     transition: none !important;
   }
